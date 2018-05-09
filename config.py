@@ -4,7 +4,7 @@ import os
 class Config(object):
     DEBUG = False
     DB_NAME = "iky-ai"
-    DB_HOST = "mongodb://127.0.0.1:27017/"
+    DB_HOST = "mongodb://kshitij:Kshitij.9@ds119070.mlab.com:19070/captainjss"
     DB_USERNAME = ""
     DB_PASSWORD = ""
     # Web Server details
