@@ -5,8 +5,8 @@ class Config(object):
     DEBUG = False
     DB_NAME = "iky-ai"
     DB_HOST = "mongodb://kshitij:Kshitij.9@ds119070.mlab.com:19070/captainjss"
-    DB_USERNAME = ""
-    DB_PASSWORD = ""
+    DB_USERNAME = "kshitij"
+    DB_PASSWORD = "Kshitij.9"
     # Web Server details
     WEB_SERVER_PORT = 8001
 
