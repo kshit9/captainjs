@@ -3,7 +3,7 @@ import os
 
 class Config(object):
     DEBUG = False
-    DB_NAME = "iky-ai"
+    DB_NAME = "captainjss"
     DB_HOST = "mongodb://kshitij:Kshitij.9@ds119070.mlab.com:19070/captainjss"
     DB_USERNAME = "kshitij"
     DB_PASSWORD = "Kshitij.9"
