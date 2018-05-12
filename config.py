@@ -23,7 +23,7 @@ class Development(Config):
 
 class Production(Config):
     # MongoDB Database Details
-    DB_HOST = "mongodb://mongodb:27017/"
+    DB_HOST = "mongodb://127.0.0.1:27017/"
     DB_USERNAME = ""
     DB_PASSWORD = ""
 
