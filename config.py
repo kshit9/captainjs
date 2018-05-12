@@ -3,12 +3,11 @@ import os
 
 class Config(object):
     DEBUG = False
-    DB_NAME = "captainjss"
-    DB_HOST = "mongodb://kshitij:Kshitij.9@ds119070.mlab.com:19070/captainjss"
-    DB_USERNAME = "kshitij"
-    DB_PASSWORD = "Kshitij.9"
-    # Web Server details
-    WEB_SERVER_PORT = 8001
+    MONGODB_DB = "iky-ai"
+    MONGODB_HOST = "127.0.0.1"
+    MONGODB_PORT = 27017
+    MONGODB_USERNAME = ""
+    MONGODB_USERNAME = ""
 
     # Intent Classifier model detials
     MODELS_DIR = "model_files"
@@ -23,9 +22,11 @@ class Development(Config):
 
 class Production(Config):
     # MongoDB Database Details
-    DB_HOST = "mongodb://mongodb:27017/"
-    DB_USERNAME = ""
-    DB_PASSWORD = ""
+    MONGODB_DB = "iky-ai"
+    MONGODB_HOST = "mongodb"
+    MONGODB_PORT = 27017
+    MONGODB_USERNAME = ""
+    MONGODB_USERNAME = ""
 
     # Web Server details
     WEB_SERVER_PORT = 8001
