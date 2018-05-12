@@ -3,11 +3,12 @@ import os
 
 class Config(object):
     DEBUG = False
-    MONGODB_DB = "iky-ai"
-    MONGODB_HOST = "127.0.0.1"
-    MONGODB_PORT = 27017
-    MONGODB_USERNAME = ""
-    MONGODB_USERNAME = ""
+    DB_NAME = "iky-ai"
+    DB_HOST = "mongodb://127.0.0.1:27017/"
+    DB_USERNAME = ""
+    DB_PASSWORD = ""
+    # Web Server details
+    WEB_SERVER_PORT = 8001
 
     # Intent Classifier model detials
     MODELS_DIR = "model_files"
@@ -22,11 +23,9 @@ class Development(Config):
 
 class Production(Config):
     # MongoDB Database Details
-    MONGODB_DB = "iky-ai"
-    MONGODB_HOST = "mongodb"
-    MONGODB_PORT = 27017
-    MONGODB_USERNAME = ""
-    MONGODB_USERNAME = ""
+    DB_HOST = "mongodb://mongodb:27017/"
+    DB_USERNAME = ""
+    DB_PASSWORD = ""
 
     # Web Server details
     WEB_SERVER_PORT = 8001
