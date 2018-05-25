@@ -3,8 +3,8 @@ import os
 
 class Config(object):
     DEBUG = False
-    DB_NAME = "iky-ai"
-    DB_HOST = "mongodb://127.0.0.1:27017/"
+    DB_NAME = "heroku_hxwlp5lv"
+    DB_HOST = "mongodb://heroku_hxwlp5lv:heroku_hxwlp5lv@ds135760.mlab.com:35760/heroku_hxwlp5lv"
     DB_USERNAME = ""
     DB_PASSWORD = ""
     # Web Server details
